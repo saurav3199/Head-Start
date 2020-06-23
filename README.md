@@ -12,7 +12,7 @@ chmod +x head_start.sh && sudo ./head_start.sh
 #### Tip: 
 > Whenever you need to write your own bash file on Windows it will add CRLF terminator at the end so in order to make it executable you have to run command 
 ```
-dos2unix head_start.sh
+sudo apt-get install dos2unix && dos2unix head_start.sh
 ```
 
 ### 2. To customize the shell 
