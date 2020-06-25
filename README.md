@@ -22,7 +22,7 @@ sudo mv bash_support/.* ~
 ```
 
 ### 3. Download songs
-Yeah I love to listen music So I download and store in music directory using youtube-dl utility 
+I like to have my music collection downloaded so I will store them in music directory using youtube-dl utility 
 ```
 cd music/ && youtube-dl -a youtube_songs
 ```
