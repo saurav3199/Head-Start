@@ -82,6 +82,9 @@ sudo apt-get install -y nmap
 echo -e "\n${LIGHTBLUE}Installing git${NC}"
 sudo apt-get install -y git
 
+echo -e "\n${LIGHTBLUE}Installing for ifconfig${NC}"
+sudo apt-get install net-tools
+
 echo -e "\n${BLUE}Web utilities done......${NC}"
 
 # Reversing tools
