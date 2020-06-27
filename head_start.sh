@@ -140,7 +140,7 @@ sudo pip3 install numpy scipy matplotlib
 
 echo -e "\n${YELLOW}Installing zsteg${NC}"
 sudo apt-get install ruby
-sudo gem install -y zsteg
+sudo gem install zsteg
 
 #youtube
 
