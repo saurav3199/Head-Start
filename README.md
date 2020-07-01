@@ -3,7 +3,8 @@ Custom files to get started on any Windows 10+ machine.
 
 Whenever If I lost the data from hard drive or moving to another new machine, these files will serve the purpose of setting the customs that I use faster.
 
-## To setup Ubuntu on WSL
+## To customize Ubuntu shell on WSL
+
 ### 1. To install all the packages beforehand
 ```
 chmod +x head_start.sh && sudo ./head_start.sh
@@ -26,4 +27,39 @@ I like to have my music collection downloaded so I will store them in music dire
 ```
 cd music/ && youtube-dl -a youtube_songs
 ```
+
+## To customize the Sublime Text 3 editor
+
+### 1. To get started for CP contests.
+
+Move into sublime folder
+
+#### A) Add these files in User Folder : 
+
+* `cpp.sublime-build` : Build file will run our specific cpp program at any location. 
+
+* `cpp.sublime-completions` : Completions file will give you advantage on writing c++ code
+
+* `crun.sublime-snippet` :  Template file for default c++ language.
+
+* `kickstart.sublime-snippet` : Template file for Kickstart competitions.
+
+* `py.sublime-snippet` : Template file for python language.
+
+* `pwn.sublime-snippet` : Template file for pwning challenges in CTFs.
+
+
+User Folder Location:  `C:\Users\{User-Profile}\AppData\Roaming\Sublime Text 3\Packages\User`
+
+#### B) This script will help set things up in 2 secs for any contest. 
+
+```
+wget https://raw.githubusercontent.com/saurav3199/Competitive_with_sublime/master/make.py
+```
+Usage Format : `./make.py {Contest-Name} {Problem-Counts}`
+
+
+
+
+
 
