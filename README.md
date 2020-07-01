@@ -28,7 +28,7 @@ I like to have my music collection downloaded so I will store them in music dire
 cd music/ && youtube-dl -a youtube_songs
 ```
 
-## To customize the Sublime Text 3 editor
+## To customize Sublime Text 3 editor
 
 ### 1. To get started for CP contests.
 
