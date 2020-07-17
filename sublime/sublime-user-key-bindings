@@ -1,0 +1,4 @@
+[
+	{	"keys": ["ctrl+,"], "command": "cancel_build" },
+	{	"keys": ["alt+shift+."], "command": "set_max_columns",	"args": {"columns": 2}	},
+]
