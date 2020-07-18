@@ -13,5 +13,5 @@ script:
  - sudo chmod +x head_start.sh
  - sudo ./head_start.sh
  - sudo cp -a bash_support/. ~
- - source .bashrc
- - youtube-dl -o "~/music/%(title)s.%(ext)s" -a music/youtube_songs
+ - source ~/.bashrc
+ - mkdir ~/music && youtube-dl -o "~/music/%(title)s.%(ext)s" -a music/youtube_songs
