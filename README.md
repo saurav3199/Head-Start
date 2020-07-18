@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/saurav3199/Head-Start.svg?branch=master)](https://travis-ci.org/saurav3199/Head-Start)
 # Head-Start
 Custom files to get started on any Windows 10+ machine.
 
