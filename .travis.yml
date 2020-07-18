@@ -2,13 +2,15 @@ language: minimal
 os:
   - linux
 dist: xenial 
-root: true
-install:
- - apt-get install dos2unix
+addons:
+  apt:
+    update: true
+before_install:
+ - sudo apt-get install dos2unix
  # command to run tests
 script:
- - chmod +x head_start.sh
- - ./head_start.sh
+ - sudo chmod +x head_start.sh
+ - sudo ./head_start.sh
  - dos2unix head_start.sh
  - mv bash_support/.* ~
  - cd music/ && youtube-dl -a youtube_songs
