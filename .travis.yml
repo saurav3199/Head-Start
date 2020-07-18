@@ -14,4 +14,5 @@ script:
  - sudo ./head_start.sh
  - sudo dos2unix head_start.sh
  - sudo cp bash_support/.* ~
+ - sudo source ./bashrc
  - cd music/ && youtube-dl -a youtube_songs
