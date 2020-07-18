@@ -6,11 +6,12 @@ addons:
   apt:
     update: true
 before_install:
+ - sudo pip install --upgrade pip
  - sudo apt-get install dos2unix
  # command to run tests
 script:
  - sudo chmod +x head_start.sh
  - sudo ./head_start.sh
  - sudo dos2unix head_start.sh
- - mv bash_support/.* ~
+ - sudo cp bash_support/.* ~
  - cd music/ && youtube-dl -a youtube_songs
