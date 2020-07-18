@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/saurav3199/Head-Start.svg?branch=master)](https://travis-ci.org/saurav3199/Head-Start)
+[![GitHub license](https://img.shields.io/github/license/saurav3199/Head-Start?style=flat-square)](https://github.com/saurav3199/Head-Start/blob/master/LICENSE.md)
 # Head-Start
 Custom files to get started on any Windows 10+ machine.
 
