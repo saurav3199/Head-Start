@@ -1,7 +1,8 @@
 language: minimal
 os:
   - linux
-sudo: true
+dist: xenial 
+root: true
 install:
  - apt-get install dos2unix
  # command to run tests
