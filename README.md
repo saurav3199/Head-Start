@@ -25,7 +25,7 @@ sudo mv bash_support/.* ~
 ### 3. Download songs
 I like to have my music collection downloaded so I will store them in music directory using youtube-dl utility 
 ```
-cd music/ && youtube-dl -a youtube_songs
+mkdir ~/music && youtube-dl -o "~/music/%(title)s.%(ext)s" -a music/youtube_songs
 ```
 
 ## To customize Sublime Text 3 editor
