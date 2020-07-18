@@ -120,6 +120,8 @@ sudo apt-get install -y python3-pip
 
 sudo apt-get install -y libmpc-dev
 
+sudo python3 -m pip install --upgrade pip
+
 sudo pip3 install z3-solver
 
 sudo pip3 install pwntools
