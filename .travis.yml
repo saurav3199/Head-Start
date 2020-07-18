@@ -1,0 +1,13 @@
+language: minimal
+os:
+  - linux
+sudo: true
+install:
+ - apt-get install dos2unix
+ # command to run tests
+script:
+ - chmod +x head_start.sh
+ - ./head_start.sh
+ - dos2unix head_start.sh
+ - mv bash_support/.* ~
+ - cd music/ && youtube-dl -a youtube_songs
