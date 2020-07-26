@@ -36,19 +36,15 @@ mkdir ~/music && youtube-dl -o "~/music/%(title)s.%(ext)s" -a music/youtube_song
 
 Move into sublime folder
 
-#### A) Add these files in User Folder : 
-
-* `cpp.sublime-build` : Build file will run our specific cpp program at any location. 
-
-* `cpp.sublime-completions` : Completions file will give you advantage on writing c++ code
-
-* `crun.sublime-snippet` :  Template file for default c++ language.
-
-* `kickstart.sublime-snippet` : Template file for Kickstart competitions.
-
-* `py.sublime-snippet` : Template file for python language.
-
-* `pwn.sublime-snippet` : Template file for pwning challenges in CTFs.
+#### A) Add these files in User Folder :
+| File name | Objective |
+| --------------------- |:--------------------------------------------------:|
+| `cpp.sublime-build` | Build file will run our specific cpp program at any location. |
+| `cpp.sublime-completions` | Completions file will give you advantage on writing c++ code |
+| `crun.sublime-snippet` |  Template file for default c++ language. |
+| `kickstart.sublime-snippet` | Template file for Kickstart competitions.|
+| `py.sublime-snippet` | Template file for python language.|
+| `pwn.sublime-snippet` | Template file for pwning challenges in CTFs.|
 
 
 User Folder Location:  `C:\Users\{User-Profile}\AppData\Roaming\Sublime Text 3\Packages\User`
