@@ -19,7 +19,7 @@ sudo apt-get install dos2unix && dos2unix head_start.sh
 ```
 
 ### 2. To customize the shell 
-Yeah I need to make my shell look better :smile:. Replace these files to root directory
+Yeah I need to make my shell look better :smile:. Replace these dotfiles to root directory
 ```
 sudo mv bash_support/.* ~
 ```
